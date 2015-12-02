@@ -68,13 +68,9 @@ public class Main {
         if (nextRoom == null) {
             return false;
         }
-
         tearDownWall(room, nextRoom);
-
         while (createMaze(rooms, nextRoom)) {
-
         }
-
         return true;
     }
 
